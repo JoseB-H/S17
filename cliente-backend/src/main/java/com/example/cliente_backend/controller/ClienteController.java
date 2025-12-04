@@ -11,7 +11,6 @@ import com.example.cliente_backend.repository.ClienteRepository;
 @RestController
 @RequestMapping("/api/clientes")
 @CrossOrigin(origins = "*")
-
 public class ClienteController {
 
   @Autowired
